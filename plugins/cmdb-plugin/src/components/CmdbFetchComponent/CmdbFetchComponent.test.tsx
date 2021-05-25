@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ExampleFetchComponent } from './ExampleFetchComponent';
+import { CmdbFetchComponent } from './ExampleFetchComponent';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { msw } from '@backstage/test-utils';
@@ -19,7 +19,7 @@ describe('ExampleFetchComponent', () => {
     );
   });
   it('should render', async () => {
-    const rendered = render(<ExampleFetchComponent />);
+    const rendered = render(<CmdbFetchComponent />);
     expect(await rendered.findByTestId('progress')).toBeInTheDocument();
   });
 });

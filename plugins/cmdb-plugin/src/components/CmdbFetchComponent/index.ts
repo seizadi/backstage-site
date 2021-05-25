@@ -1,0 +1,1 @@
+export { CmdbFetchComponent } from './CmdbFetchComponent';

@@ -1,0 +1,1 @@
+export { CmdbComponent } from './CmdbComponent';
