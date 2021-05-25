@@ -1254,7 +1254,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.1.tgz#621f95f2e5e4aa7cca6c632c48ccb3c3d444eb8a"
   integrity sha512-JxbSUkJIXQqamgiE38MtlMn2/BdpLaqMwwi429wZfNg8upfONIrN2BW9qMb8G9CkWdI4ssUfIem1HAtDqhdDvQ==
 
-"@backstage/cli@^0.6.11":
+"@backstage/cli@^0.6.11", "@backstage/cli@^0.6.12":
   version "0.6.12"
   resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.6.12.tgz#7133f42f017c7ceada334d67bc2fb32352a3cac8"
   integrity sha512-zQ4jrzDfzKB9VHimyNcYcnWdhd7xTmRNrPOrAFFY86GzwEuE6mNouAguYuzUC5zBRyxZGwZEP95pD94vLFYxXg==
@@ -1432,6 +1432,29 @@
     react-use "^17.2.4"
     remark-gfm "^1.0.0"
     zen-observable "^0.8.15"
+
+"@backstage/dev-utils@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@backstage/dev-utils/-/dev-utils-0.1.15.tgz#9ad9da05cb1c6fb1db7cc5fa7d1bc1aedae4f956"
+  integrity sha512-DgVgEjsriIL9TfJKoAEHyO7lLgDDczoFJzgzR199enH3oPUVtOQUtp8Ma6LmWSufcr0luCMvBjGNLLOtvh+V0w==
+  dependencies:
+    "@backstage/catalog-model" "^0.7.10"
+    "@backstage/core" "^0.7.10"
+    "@backstage/integration-react" "^0.1.2"
+    "@backstage/plugin-catalog-react" "^0.1.6"
+    "@backstage/test-utils" "^0.1.12"
+    "@backstage/theme" "^0.2.3"
+    "@material-ui/core" "^4.11.0"
+    "@material-ui/icons" "^4.9.1"
+    "@testing-library/jest-dom" "^5.10.1"
+    "@testing-library/react" "^11.2.5"
+    "@testing-library/user-event" "^13.1.8"
+    "@types/react" "^16.9"
+    react "^16.12.0"
+    react-dom "^16.12.0"
+    react-hot-loader "^4.12.21"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
 
 "@backstage/errors@^0.1.1":
   version "0.1.1"
@@ -13743,7 +13766,7 @@ msal@^1.0.2:
   dependencies:
     tslib "^1.9.3"
 
-msw@^0.21.3:
+msw@^0.21.2, msw@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/msw/-/msw-0.21.3.tgz#d073842f9570a08f4041806a2c7303a9b8494602"
   integrity sha512-voPc/EJsjarvi454vSEuozZQQqLG4AUHT6qQL5Ah47lq7sGCpc7icByeUlfvEj5+MvaugN0c7JwXyCa2rxu8cA==
