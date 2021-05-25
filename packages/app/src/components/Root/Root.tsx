@@ -16,6 +16,7 @@
 
 import React, { useContext, PropsWithChildren } from 'react';
 import { Link, makeStyles } from '@material-ui/core';
+import SettingsApplicationsIcon from '@material-ui/icons/SettingsApplications';
 import HomeIcon from '@material-ui/icons/Home';
 import ExtensionIcon from '@material-ui/icons/Extension';
 import MapIcon from '@material-ui/icons/MyLocation';
@@ -82,6 +83,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
       <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." />
       {/* End global nav */}
       <SidebarDivider />
+      <SidebarItem icon={SettingsApplicationsIcon} to="cmdb-plugin" text="CMDB" />
       <SidebarItem icon={MapIcon} to="tech-radar" text="Tech Radar" />
       <SidebarSpace />
       <SidebarDivider />
